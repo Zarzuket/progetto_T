@@ -13,15 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'PageController@index');
+// Route::get('/', 'PageController@index');
 
 Auth::routes();
 
 // ROTTE AREA ADMIN
-Route::middleware('auth')->namespace('Admin')->name('admin.')->prefix('admin')->group(
-    function(){
-
+Route::middleware('auth')->namespace('Admin')->name('admin.')->prefix('admin')->group(function(){
         Route::get('/home', 'HomeController@index')->name('home');
+        Route::resource('posts','PostController');
     }
 );
-
+// QUALSIASI ALTRA ROTTA PASSALA A VUE
+Route::get('/{any}', 'PageController@index')->where('any', '.*');

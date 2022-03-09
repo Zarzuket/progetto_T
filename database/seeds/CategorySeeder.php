@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use App\Category;
+use Illuminate\Support\Str;
 
 class CategorySeeder extends Seeder
 {
@@ -12,11 +13,12 @@ class CategorySeeder extends Seeder
      */
     public function run()
     {
-        $categories = ["Scoperta","Ricerca"];
+        $categories = ["scoperta","ricerca"];
 
         foreach($categories as $category){
             $newCategory = new Category();
             $newCategory->name = $category;
+            $newCategory->slug = Str::of($category)->slug('-');
             $newCategory->save();
         }
     }

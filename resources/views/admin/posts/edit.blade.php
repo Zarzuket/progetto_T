@@ -23,7 +23,14 @@
 							@error('description')
 								<div class="alert alert-danger">{{ $message }}</div>
 						    @enderror
-						</div>	
+						</div>
+						<div class="form-group">
+							<label for="preview">Preview</label>
+							<textarea class="form-control @error('preview') is-invalid @enderror" name="preview" id="preview" cols="30" rows="10" placeholder="Inserisci la descrizione">{{old("preview") ?? $post["preview"]}}</textarea>
+							@error('preview')
+								<div class="alert alert-danger">{{ $message }}</div>
+						    @enderror
+						</div>		
 						<button type="submit" class="btn btn-primary">Salva</button>
 					</form>
                 </div>

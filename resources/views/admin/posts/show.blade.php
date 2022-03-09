@@ -26,6 +26,7 @@
             <div class="card-body">
                 <h1>{{$post->title}}</h1>
                 <p>{{$post->description}}</p>
+                <em>{{$post->preview}}</em>
             </div>
         </div>
     </div>

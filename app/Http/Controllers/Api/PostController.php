@@ -8,12 +8,22 @@ use App\Post;
 
 class PostController extends Controller
 {
+    // restituisce tutti i post
     public function index()
     {
-        $posts = Post::all();
+        $posts = Post::with('category','user')->get();
         return response()->json([
             'success' => true,
-            'data' => $posts
+            'data' => $posts,
+        ]);
+    }
+    // restituisce singolo post tramite slug
+    public function show($slug)
+    {
+        $post = Post::where('slug',$slug)->with('user','category')->first();
+        return response()->json([
+            'success' => true,
+            'data' => $post,
         ]);
     }
 }

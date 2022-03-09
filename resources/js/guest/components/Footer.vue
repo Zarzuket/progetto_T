@@ -19,7 +19,7 @@ export default {
 <style lang="scss" scoped>
 
 	footer {
-		background-color: rgb(170, 224, 245);
+		background-color: rgb(4, 60, 82);
 		padding: .625rem 0;
 		text-align: center;
 		a {

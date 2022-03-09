@@ -40,7 +40,7 @@ class PostSeeder extends Seeder
                 farina di soia;
                 verdure a foglia verde scuro (ad esempio il crescione e il cavolo riccio).
                 Associare al pasto una spremuta di agrumi può incrementare l’assorbimento di ferro attraverso la vitamina C.I regimi dietetici particolari come quelli vegetariani o vegani necessitano di attente integrazioni per bilanciare l’acquisizione di micronutrienti, tra cui appunto il ferro, che rischiano di essere assunti in misura inferiore.",
-                ""
+                "preview" => "Per i bambini con anemia serve una dieta specifica? Andiamo con ordine..."
             ],
             [
                 "id" => 1,
@@ -61,6 +61,7 @@ class PostSeeder extends Seeder
                 Con l’istituzione dell’Ambulatorio multidisciplinare per la diagnosi e la cura dell’obesità dell’Azienda Ospedaliero-Universitaria Meyer di Firenze, giunto al secondo anno di attività, è stato avviato un programma di contrasto di questo fenomeno, mirato alla presa in carico globale del paziente affetto da obesità grave.
                 
                 Il progetto è nato e portato avanti grazie all’impegno di tutto il gruppo di lavoro: il pediatra Franco Ricci, la psicologa Alessandra Bettini, la dietista Maria Amina Sammarco, che hanno espresso così tanta passione nel far capire la complessità del problema e la necessità di una 'visione a 360 gradi'.",
+                "preview" => "Nonostante l’attenzione e le risorse messe a disposizione per la prevenzione, ci scontriamo sempre di più con le difficoltà legate alla complessità delle problematiche che ruotano intorno a questo fenomeno e rendono spesso vane le azioni..."
             ],
             [
                 "id" => 2,
@@ -93,6 +94,7 @@ class PostSeeder extends Seeder
                 La durata della batteria varia in base al tipo di Pacemaker. Mediamente dura da 5 a più di 10 anni. Quando la batteria si esaurisce si può sostituire con un semplicissimo intervento.
                 
                 L'informazione presente nel sito deve servire a migliorare, e non a sostituire, il rapporto medico-paziente. In caso di disturbi e/o malattie rivolgiti al tuo medico di base o ad uno specialista.",
+                "preview" => "L’indicazione più frequente al posizionamento del pace maker è..."
             ],
             [
                 "id" => 3,
@@ -121,6 +123,7 @@ class PostSeeder extends Seeder
                 La Coronarografia è l’ intervento che permette al Cardiologo di visualizzare le arterie coronarie e di pulirle dalle ostruzioni responsabili dell’ infarto. Questa operazione si chiama angioplastica. Una volta pulita la coronaria malata, si posiziona solitamente uno stent che serve a tenere aperto il vaso sanguigno ed impedire che si chiuda nuovamente.  Raramente, se le coronarie sono molto malate, si deve ricorrere alla cardiochirurgia ed al posizionamento di bypass.
                 
                 L'informazione presente nel sito deve servire a migliorare, e non a sostituire, il rapporto medico-paziente. In caso di disturbi e/o malattie rivolgiti al tuo medico di base o ad uno specialista.",
+                "preview" => "Le malattie delle arterie coronarie fanno parte delle cosiddette “patologie cardiovascolari”, che rappresentano..."
             ],
             [
                 "id" => 1,
@@ -137,6 +140,7 @@ class PostSeeder extends Seeder
                 “Analizzando i nostri dati, e combinandoli con i risultati di altri studi pubblicati, a disposizione dalla comunità scientifica, abbiamo scoperto che le differenze nei livelli di MAIT erano precedenti all’inizio del trattamento. Questo ci fa pensare che siano efficaci come biomarcatori per sapere in anticipo chi con maggiore probabilità risponderà positivamente alla terapia” aggiunge Lugli.
                 
                 Al momento, spiega il ricercatore, non è chiaro in che modo le cellule MAIT condizionino la risposta all’immunoterapia. Potrebbero svolgere un ruolo diretto nel contrastare il tumore, agire in modo sinergico con i farmaci o essere coinvolti in altri meccanismi ancora ignoti. Occorreranno ulteriori ricerche per capire questo aspetto e anche per raccogliere maggiori informazioni sul loro ruolo come marcatori di risposta al trattamento. Se questa capacità fosse confermata, sarebbe possibile disporre di un test semplice per scegliere per ciascun malato il trattamento con maggiori probabilità di successo. Questo approccio, inoltre, potrebbe rivelarsi valido anche per altre neoplasie, oltre al melanoma, che oggi prevedono l’impiego dei farmaci immunoterapici.",
+                "preview" => "In futuro, un semplice esame del sangue potrebbe essere sufficiente per sapere in anticipo se l’immunoterapia contro il melanoma ha probabilità di successo o se è preferibile scegliere da subito un altro trattamento. Enrico Lugli, dell’IRCCS Istituto Clinico Humanitas..."
             ],
             [
                 "id" => 3,
@@ -149,6 +153,7 @@ class PostSeeder extends Seeder
                 In topi di laboratorio, Blaauw e colleghi hanno anzitutto confermato che negli animali con tumore che mostrano deperimento muscolare la via Akt-mTOR è meno attiva del normale. La sua ulteriore riduzione o il suo spegnimento, però, non sembrano aumentare la perdita di massa muscolare. Viceversa, la riattivazione della via tramite modifiche genetiche ha portato a un recupero quasi completo non solo della massa muscolare, ma anche della forza. “In più, abbiamo osservato che le cellule muscolari recuperano una serie di caratteristiche molecolari che si erano alterate nel corso del deperimento.” 
                 
                 Come potrebbero beneficiare i pazienti di queste osservazioni? Sappiamo che l’esercizio fisico può attivare la via Akt-mTOR, ma resta da capire quali tipi di esercizi siano più efficaci a questo scopo e per quanto tempo debbano essere praticati per ottenere un risultato. “Avere questa informazione permetterebbe di costruire piani mirati di attività fisica per i pazienti colpiti da cachessia, in modo che debbano fare solo quanto è strettamente necessario per avere un beneficio muscolare” spiega Blaauw. Un’altra opzione potrebbe essere farmacologica. “Ci sono gruppi di ricerca nel mondo che stanno lavorando a tecniche per veicolare farmaci in maniera precisa in un determinato tessuto. In futuro queste tecniche potrebbero, per esempio, permettere l’attivazione di Akt-mTOR solo nel muscolo scheletrico durante la cachessia tumorale.”",
+                "preview" => "Chiarire i meccanismi molecolari del deperimento muscolare associato a cachessia, una sorta di “esaurimento”..."
             ],
             [
                 "id" => 5,
@@ -166,6 +171,7 @@ class PostSeeder extends Seeder
                 Ma non è raro, invece, che l'eccesso di peluria sia la parte emergente, la più evidente, di una disfunzione ormonale che determina una iper-produzione di androgeni, per la quale è consigliabile che il terapeuta sia l'endocrinologo e non l'estetista.
                 
                 La endocrinopatia può essere a partenza ovarica o surrenalica. La patologia di gran lunga più comune alla base di un irsutismo è la policistosi ovarica. Il rischio di incorrere in questa patologia è maggiore se la paziente è in soprappeso perché l’iperinsulinismo associato a questa condizione stimola la la produzione ovarica di androgeni.",
+                "preview" => "Mai proverbio ha avuto un più chiaro intento consolatorio e ha goduto di minore credibilità. Tanto meno ai giorni nostri..."
             ],
             [
                 "id" => 1,
@@ -178,6 +184,7 @@ class PostSeeder extends Seeder
                 'Per mettere a punto la tecnica siamo partiti da una proteina capace di riconoscere le regioni di cromatina aperta e l’abbiamo combinata a una seconda proteina che riconosce invece la cromatina chiusa' spiegano Francesca Giannese e Dejan Lazarevic, coordinatori dell’Innovation Lab del Centro di scienze omiche, e Davide Cittaro, bioinformatico del laboratorio. 'Grazie a questa proteina ibrida è possibile riconoscere e quantificare le due forme di cromatina presenti in un determinato momento in una cellula'. Secondo i ricercatori, il rapporto relativo tra le due forme di cromatina permette di predire il comportamento delle cellule, cioè prevedere quali geni stiano per trascrivere e quali programmi cellulari stiano per avviare. 'Sono informazioni molto importanti per studiare processi dinamici come lo sviluppo embrionale, la trasformazione tumorale o lo sviluppo di resistenza ai farmaci da parte delle cellule tumorali' commenta Tonon. 'Abbiamo già cominciato a identificare nuove vie metaboliche, coinvolte nell’insorgenza delle resistenze, che sono regolate proprio a livello epigenetico'.
                 
                 Lo studio è stato reso possibile dal contributo di Fondazione AIRC per diversi tipi di grant, tra cui Investigator Grant, Programmi '5 per mille' e un Accelerator Award sostenuto da AIRC e Cancer Research UK (CRUK). “Non solo AIRC ci ha dato le risorse per lavorare” sottolinea Tonon 'ma il tipo di finanziamento che ha sostenuto questo studio ci ha anche dato il tempo necessario (cinque anni) per portarlo avanti lavorando anche con altri gruppi nazionali e internazionali'.",
+                "preview" => "Ormai è sempre più chiaro che la capacità dei tumori di resistere alle terapie dipende anche da modifiche epigenetiche..."
             ],
         ];
         foreach ($posts as $post){
@@ -185,6 +192,7 @@ class PostSeeder extends Seeder
             $newPost->user_id = $post["id"];
             $newPost->category_id = $post["category_id"];
             $newPost->title = $post["title"];
+            $newPost->preview = $post['preview'];
             $newPost->slug = Str::of($post["title"])->slug('-');
             $newPost->description = $post["description"];
             $newPost->save();

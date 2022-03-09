@@ -1,11 +1,12 @@
 <template>
     <header>
-        <div class="container">
+        <div class="nav">
             <ul>
-                <li><a href="#">LINK</a></li>
-                <li><a href="#">LINK</a></li>
-                <li><a href="#">LINK</a></li>
-                <li><a href="#">LINK</a></li>
+				<li><router-link :to="{ name: 'Home' }">Home</router-link></li>
+				<li><router-link :to="{ name: 'Scoperta' }">Scoperta</router-link></li>
+				<li><router-link :to="{ name: 'Ricerca' }">Ricerca</router-link></li>
+				<!-- <li><router-link :to="{ name: 'single-category' }">Ricerca</router-link></li> -->
+				<li><router-link :to="{ name: 'about' }">Chi Sono</router-link></li>
             </ul>
         </div>
     </header>
@@ -19,23 +20,25 @@ export default {
 
 <style lang="scss" scoped>
 	header {
-		background-color: rgb(170, 224, 245);
+		background-color: rgb(4, 60, 82);
 		padding: 1.875rem 0;
-		.container {
+		.nav {
 			display: flex;
-			justify-content: space-between;
+			justify-content: center;
 			align-items: center;
 			ul {
 				display: flex;
 				li {
 					list-style: none;
 					a {
-						color: #fff;
+						color: #5affb2;
 						text-decoration: none;
 						text-transform: uppercase;
+						padding: 0px 40px;
+					&:hover{
+						-webkit-transition: color ease-in-out 600ms;
+    					color: red;
 					}
-					&:not(:last-child) {
-						margin-right: 20px;
 					}
 				}
 			}

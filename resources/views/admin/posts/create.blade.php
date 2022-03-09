@@ -44,6 +44,14 @@
 								<div class="alert alert-danger">{{ $message }}</div>
 						    @enderror
 						</div>
+						{{-- PREVIEW --}}
+						<div class="form-group">
+							<label for="preview">Preview</label>
+							<textarea class="form-control @error('preview') is-invalid @enderror" name="preview" id="preview" cols="30" rows="10" placeholder="Inserisci il contenuto">{{old("preview")}}</textarea>
+							@error('preview')
+								<div class="alert alert-danger">{{ $message }}</div>
+						    @enderror
+						</div>
 						{{-- CATEGORIA --}}
 						<div class="form-group">
 							<label for="category">Categoria</label>
@@ -56,11 +64,6 @@
 							@error('category_id')
 								<div class="alert alert-danger">{{$message}}</div>
 							@enderror
-						</div>
-						{{-- IMMAGINE --}}
-						<div class="form-group">
-							<label>Immagine di copertina</label>
-							<input type="file" name="images">
 						</div>
 						<button type="submit" class="btn btn-primary">Crea</button>
 					</form>

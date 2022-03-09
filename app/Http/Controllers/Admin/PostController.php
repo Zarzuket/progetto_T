@@ -15,8 +15,9 @@ class PostController extends Controller
     protected $validationRules = [
         'title' => 'string|required|max:100',
         'description' => 'string|required',
+        'preview' => 'string|required|max:100',
         'user_id' => 'exists:users,id',
-        'category_id' => 'nullable|exists:categories,id',
+        'category_id' => 'exists:categories,id',
         "images" => "nullable",
     ];
 
@@ -117,6 +118,10 @@ class PostController extends Controller
      */
     public function edit(Post $post)
     {
+        // se il post con l'user id è diverso dall'autentificazione non restituisce il post.
+        if ($post->user_id != Auth::id()) {
+            abort("403");
+        }
         $categories = Category::all();
         return view('admin.posts.edit',compact('post','categories'));
     }

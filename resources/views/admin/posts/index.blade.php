@@ -22,13 +22,16 @@
             </nav>
         </div>
         <div class="col-md-9">
-            <div class="card">
+            <div class="card no_border">
                 @if ($message = Session::get('success'))
                 <div class="alert alert-success alert-block">
                     <button type="button" class="close" data-dismiss='alert'>x</button>
                     <strong>{{$message}}</strong>
                 </div>
                 @endif
+                @if (count($posts) == 0)
+                    <h1 class="no_border">Non hai nessun post. Creane uno!</h1>
+                @else
                 <table class="table">
                     <thead>
                         <tr>
@@ -61,6 +64,7 @@
                         @endforeach
                     </tbody>
                 </table>
+                @endif
             </div>
         </div>
     </div>
